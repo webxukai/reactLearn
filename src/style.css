@@ -1,3 +1,37 @@
-.input{
+/* .input{
     border: 1px solid salmon
 }
+.show {
+    opacity: 1;
+    transition: all 1s ease-in;
+}
+.hide {
+    opacity: 0;
+    animation: hide 2s ease-in forwards;
+}
+
+@keyframes hide {
+    0% {
+        opacity: 1;
+        color: red;
+    }
+    100% {
+        opacity: 0;
+        color: blue;
+    }
+} */
+
+.my-node-enter {
+    opacity: 0;
+  }
+  .my-node-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms;
+  }
+  .my-node-exit {
+    opacity: 1;
+  }
+  .my-node-exit-active {
+    opacity: 0;
+    transition: opacity 2000ms;
+  }
